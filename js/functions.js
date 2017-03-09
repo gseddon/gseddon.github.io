@@ -58,6 +58,10 @@ function  workLoad() {
     $('.project-load').html(spinner).load(newHTML);
     $('.project-title').text(newTitle);
   });
+
+  $("iframe").each(function() {
+    $(this).attr("src", $(this).attr("src").replace("http://", "https://"));
+});
   
 }
 
@@ -416,4 +420,4 @@ function clientStuff() {
 			adjust();
 		});
 	};
-}(jQuery || $)); // jQuery or jQuery-like library, such as Zepto.
+}(jQuery || $)); // jQuery or jQuery-like library, such as Zepto

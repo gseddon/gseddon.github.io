@@ -53,15 +53,11 @@ function  workLoad() {
         newTitle = $this.find('strong').text(),
         newfolder = $this.find('.thumb-unit').data('folder'),
         spinner = '<div class="loader">Loading...</div>',
-        newHTML = 'https://gseddon.github.io/work/'+ newfolder;
+        newHTML = 'work/'+ newfolder;
       
     $('.project-load').html(spinner).load(newHTML);
     $('.project-title').text(newTitle);
   });
-
-  $("iframe").each(function() {
-    $(this).attr("src", $(this).attr("src").replace("http://", "https://"));
-});
   
 }
 

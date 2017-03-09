@@ -416,4 +416,4 @@ function clientStuff() {
 			adjust();
 		});
 	};
-}(jQuery || $)); // jQuery or jQuery-like library, such as Zepto
+}(jQuery || $)); // jQuery or jQuery-like library, such as Zepto.

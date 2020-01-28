@@ -6,8 +6,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Engineering experience portfolio">
 <meta name="author" content="Gareth Seddon">
-<meta name="generator" content="Hugo 0.19" />
-<title>Gareth Seddon Portfolio</title>
+<meta name="generator" content="Hugo 0.20.2" />
+<title>Gareth Seddon</title>
 <link rel="stylesheet" href="/css/all.css">
 <!--[if lt IE 9]>
 	<script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -25,7 +25,7 @@
         <a href="#contact">Contact</a>
     </nav>
     <h1><span>Gareth Seddon</span></h1>
-    <p class="kicker">Electrical Engineer // Developer // Tinkerer</p>
+    <p class="kicker">Software Engineer // Tinkerer // Gamer</p>
 </header>
  
 		<!-- About section -->
@@ -52,7 +52,7 @@
 
     
     <div class="blurb">
-        <p>I have been able to involve myself in a diverse collection of projects over the years, and this is a collection of some of my favourites. Covering personal, work and university projects, working solo or contributing to a team, these have helped shape my interests and pick up invaluable skills. They are often centered around music, one of my passions, but regardless of the objective, whether it&rsquo;s implemented in  software, hardware, or both, I enjoy a good challenge, and will work tirelessly to the end result. <br><br> Currently in my final year of a Master of Electrical Engineering, I am looking for an opportunity to be part of a diverse team creating solutions to complex engineering problems.</p>
+        <p>Software engineer specialising in functional and concurrent programming. I have experience working on telco scale big data pipelines, handling upwards of 10k events/second, with an emphasis on extremely high availability. A relentless tinkerer, I love to automate things, whether it&rsquo;s business processes, programming and design tools, or the technology in my home. Experience in a range of sectors, including corporate, start-ups, and academia. Strong believer in continuous self-education, currently learning more about domain driven design and its applications in functional programming paradigms.</p>
     </div>
     
 
@@ -63,26 +63,40 @@
     <h3 id="work">Projects</h3>
 
     
+    <input type="radio" name="trigger" class="trigger" id="nand2tetris" />
+    
+    <input type="radio" name="trigger" class="trigger" id="gmusic" />
+    
     <input type="radio" name="trigger" class="trigger" id="msfw" />
     
     <input type="radio" name="trigger" class="trigger" id="rtlsdr" />
-    
-    <input type="radio" name="trigger" class="trigger" id="asterio" />
-    
-    <input type="radio" name="trigger" class="trigger" id="marscraft" />
     
     <input type="radio" name="trigger" class="trigger" id="partylights" />
     
     <input type="radio" name="trigger" class="trigger" id="bluetooth" />
     
-    <input type="radio" name="trigger" class="trigger" id="naomi" />
-    
-    <input type="radio" name="trigger" class="trigger" id="frogID" />
-    
     <input type="radio" name="trigger" id="return" class="return" />
     <div class="work-belt">
         <div class="thumb-wrap">
             <div class="thumb-container">
+                
+                <label for="nand2tetris">
+                    <div class="thumb-unit" data-folder="nand2tetris">
+                        <img src="img/work/nand2tetris/thumb.jpg" alt="Nand2Tetris" />
+                    </div>
+                    <div class="thumb-overlay">
+                        <strong>Nand2Tetris</strong>
+                    </div>
+                </label>
+                
+                <label for="gmusic">
+                    <div class="thumb-unit" data-folder="gmusic">
+                        <img src="img/work/gmusic/thumb.jpg" alt="Google Music Interface" />
+                    </div>
+                    <div class="thumb-overlay">
+                        <strong>Google Music Interface</strong>
+                    </div>
+                </label>
                 
                 <label for="msfw">
                     <div class="thumb-unit" data-folder="msfw">
@@ -99,24 +113,6 @@
                     </div>
                     <div class="thumb-overlay">
                         <strong>Final year project - Software Defined Radio</strong>
-                    </div>
-                </label>
-                
-                <label for="asterio">
-                    <div class="thumb-unit" data-folder="asterio">
-                        <img src="img/work/asterio/thumb.jpg" alt="Multiplayer Asteroids - Hackathon project" />
-                    </div>
-                    <div class="thumb-overlay">
-                        <strong>Multiplayer Asteroids - Hackathon project</strong>
-                    </div>
-                </label>
-                
-                <label for="marscraft">
-                    <div class="thumb-unit" data-folder="marscraft">
-                        <img src="img/work/marscraft/thumb.jpg" alt="Marscraft - NASA Spacehack" />
-                    </div>
-                    <div class="thumb-overlay">
-                        <strong>Marscraft - NASA Spacehack</strong>
                     </div>
                 </label>
                 
@@ -138,24 +134,6 @@
                     </div>
                 </label>
                 
-                <label for="naomi">
-                    <div class="thumb-unit" data-folder="naomi">
-                        <img src="img/work/naomi/thumb.jpg" alt="IBM Robotics Project" />
-                    </div>
-                    <div class="thumb-overlay">
-                        <strong>IBM Robotics Project</strong>
-                    </div>
-                </label>
-                
-                <label for="frogID">
-                    <div class="thumb-unit" data-folder="frogID">
-                        <img src="img/work/frogID/thumb.jpg" alt="FrogID Android app" />
-                    </div>
-                    <div class="thumb-overlay">
-                        <strong>FrogID Android app</strong>
-                    </div>
-                </label>
-                
             </div>
         </div>
         <div class="work-wrap">
@@ -167,6 +145,14 @@
                 <div class="project-load"></div>
                 <noscript>
                     
+                    <div class="noscript" id="content-nand2tetris">
+                        <h4 class="project-title">Nand2Tetris</h4>
+                    </div>
+                    
+                    <div class="noscript" id="content-gmusic">
+                        <h4 class="project-title">Google Music Interface</h4>
+                    </div>
+                    
                     <div class="noscript" id="content-msfw">
                         <h4 class="project-title">Melbourne Spring Fashion Week iOS App</h4>
                     </div>
@@ -175,28 +161,12 @@
                         <h4 class="project-title">Final year project - Software Defined Radio</h4>
                     </div>
                     
-                    <div class="noscript" id="content-asterio">
-                        <h4 class="project-title">Multiplayer Asteroids - Hackathon project</h4>
-                    </div>
-                    
-                    <div class="noscript" id="content-marscraft">
-                        <h4 class="project-title">Marscraft - NASA Spacehack</h4>
-                    </div>
-                    
                     <div class="noscript" id="content-partylights">
                         <h4 class="project-title">Party Lights</h4>
                     </div>
                     
                     <div class="noscript" id="content-bluetooth">
                         <h4 class="project-title">Integrated Motorbike Bluetooth Headset</h4>
-                    </div>
-                    
-                    <div class="noscript" id="content-naomi">
-                        <h4 class="project-title">IBM Robotics Project</h4>
-                    </div>
-                    
-                    <div class="noscript" id="content-frogID">
-                        <h4 class="project-title">FrogID Android app</h4>
                     </div>
                     
                 </noscript>
@@ -210,8 +180,6 @@
 <section class="section-contact">
     <h3 id="contact">Contact</h3>
     <div class="social-links">
-        
-        <a href="//bitbucket.org/gareth_seddon/" class="icon-github"></a>
         
         <a href="//www.linkedin.com/in/gseddon" class="icon-linkedin"></a>
         

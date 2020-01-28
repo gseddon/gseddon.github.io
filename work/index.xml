@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Works on Gareth Seddon Portfolio</title>
-    <link>/work.xml</link>
-    <description>Recent content in Works on Gareth Seddon Portfolio</description>
+    <title>Works on Gareth Seddon</title>
+    <link>/work.html</link>
+    <description>Recent content in Works on Gareth Seddon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/work.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="/work/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title></title>
@@ -14,13 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/work/asterio.html</guid>
-      <description>&lt;p&gt;At Unihack our team of 3 built a multiplayer, networked version of the classic Asteroids video game, in 24 frantic hours.
-We separately implemented a game server in node.js, a game client in paper.js, and framerate independing synchronisation and networking code. This was a massive learning curve for the team, none of whom had touched any of these frameworks before, but we came together fantastically as a team and produced one of the most popular programs at the event.&lt;/p&gt;
-
-&lt;iframe width=&#34;570&#34; height=&#34;400&#34;
-src=&#34;https://www.youtube.com/embed/CcBbxieS2IA&#34;&gt;
-&lt;/iframe&gt;
-</description>
+      <description>At Unihack our team of 3 built a multiplayer, networked version of the classic Asteroids video game, in 24 frantic hours. We separately implemented a game server in node.js, a game client in paper.js, and framerate independing synchronisation and networking code. This was a massive learning curve for the team, none of whom had touched any of these frameworks before, but we came together fantastically as a team and produced one of the most popular programs at the event.</description>
     </item>
     
     <item>
@@ -29,28 +25,34 @@ src=&#34;https://www.youtube.com/embed/CcBbxieS2IA&#34;&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/work/bluetooth.html</guid>
-      <description>&lt;p&gt;Several years ago when I bought my first motorbike, I was very keen to get a wireless music solution for commuting to university and my part time job. However, as a student I could not afford to buy a commercial solution, so I decided to build my own. I purchased a second hand Sony bluetooth headset from eBay, and set about cannibalising its insides to fit the helmet. All the controls were removed, and I built boards with glove friendly buttons on them to attach in their place. With so much extra room in the helmet to use for the battery, I took a credit card shaped phone battery pack and adapted its charging electronics so that the bluetooth unit could use it. This resulted in incredible battery life, typically around a month between charges, and the quality Sony speakers sounded great.&lt;/p&gt;
-
-&lt;p&gt;This was a great exercise in engineering to constraints, chiefly budgetary, with a highly practical result.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;img/work/bluetooth/helmetexplained.jpg&#34; alt=&#34;internal view&#34; /&gt;&lt;/p&gt;
-</description>
+      <description>Several years ago when I bought my first motorbike, I was very keen to get a wireless music solution for commuting to university and my part time job. However, as a student I could not afford to buy a commercial solution, so I decided to build my own. I purchased a second hand Sony bluetooth headset from eBay, and set about cannibalising its insides to fit the helmet. All the controls were removed, and I built boards with glove friendly buttons on them to attach in their place.</description>
     </item>
     
     <item>
       <title></title>
-      <link>/work/frogID.html</link>
+      <link>/work/frogid.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/work/frogID.html</guid>
-      <description>&lt;p&gt;The IBM Interactive Experience Sydney team had an engagement with the Australian Museum to build a pair of applications, iOS and Android, to track the frogs of Australia. They had an idea whereby they wanted to crowdsource information about frogs, and do it using apps that were fun, informative, and kept users coming back for more. The core idea was that one was able to use a phone&amp;rsquo;s microphone to record a frog call, and optionally take pictures of the frog. This data would be tagged with the user&amp;rsquo;s location and sent back to the museum for analysis and identification. Eventually with enough data, the museum would have the first comprehensive, up to date map of frogs in Australia.&lt;/p&gt;
-
-&lt;p&gt;However, the project was changed to also have a dynamically updated database of frogs, with automatic filtering by known locations, so that the user could also guess as to what the frog was. There was more and more scope creep in the project, with the Android team in particular straining to keep up. I was brought on to help, working with the Sydney team remotely. This was a unique experience, and working in a separate location meant I had to become much more effective with written communication, scheduled planning and meetings, and more proactive in seeking assistance when I was stuck. This could otherwise lead to puzzling over a problem all day when the solution was sitting in the head of a colleague on the other side of a Slack conversation.&lt;/p&gt;
-
-&lt;p&gt;As this was my first time working on Android, it required many long nights practicing and understanding Java and Android framework development at home. It was a great opportunity however to see app development from two angles, having previously worked on several iOS applications, and helped in gaining a really deep understanding of mobile development and insights into the design choices of each platform.&lt;/p&gt;
-
-&lt;p&gt;Unfortunately the app was still not finished and released by the time my internship concluded, but I am looking forward to the day in hopefully Q2 2017 when I will be able to take the app down to the local creek and record some Eastern Common Froglets.&lt;/p&gt;
-</description>
+      <guid>/work/frogid.html</guid>
+      <description>The IBM Interactive Experience Sydney team had an engagement with the Australian Museum to build a pair of applications, iOS and Android, to track the frogs of Australia. They had an idea whereby they wanted to crowdsource information about frogs, and do it using apps that were fun, informative, and kept users coming back for more. The core idea was that one was able to use a phone&amp;rsquo;s microphone to record a frog call, and optionally take pictures of the frog.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/work/gameboy.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/work/gameboy.html</guid>
+      <description>For a university subject, we were tasked with creating a small handheld device, very similar to a classic Nintendo Gameboy. This included both hardware design and writing the software to make it run. We were required to design a 2 sided PCB in Altium Designer, and then send our designs off for PCB manufacture in China. After a several week delay our boards came back and we could start hand assembly of the various components.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/work/gmusic.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/work/gmusic.html</guid>
+      <description>Created a lightweight desktop interface for google music. Very simple and includes builtin caching. This was an experiment to learn about building native GUIs and understand python threading and queueing better.</description>
     </item>
     
     <item>
@@ -59,10 +61,7 @@ src=&#34;https://www.youtube.com/embed/CcBbxieS2IA&#34;&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/work/marscraft.html</guid>
-      <description>&lt;p&gt;At the NASA Spacehack 2016 hackathon, our team of four had the opportunity to make use of a HTC Vive for our project. In keeping with the Space theme, we decided to make a Virtual Reality Mars experience, low gravity and everything. As always, we were diving into the unknown with our tools and frameworks, specifically the Unity game engine and C#, along with alpha quality VR integrations into our engine. However, we successfully bonded over the lack of sleep and free pizza and built the game demonstrated in the video below. Our game Marscraft was a very immersive experience, with a soundtrack based on the Apollo missions. The astronauts appear about 8&amp;rdquo; tall standing in front of you, and people were seen to physically jump backwards upon turning around and seeing one standing behind them. However, the key learning experience for me was that building games is insanely hard, and I much prefer playing them!&lt;/p&gt;
-
-&lt;iframe width=&#34;570&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/ETx9pPR-nQ0&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-</description>
+      <description>At the NASA Spacehack 2016 hackathon, our team of four had the opportunity to make use of a HTC Vive for our project. In keeping with the Space theme, we decided to make a Virtual Reality Mars experience, low gravity and everything. As always, we were diving into the unknown with our tools and frameworks, specifically the Unity game engine and C#, along with alpha quality VR integrations into our engine.</description>
     </item>
     
     <item>
@@ -71,16 +70,16 @@ src=&#34;https://www.youtube.com/embed/CcBbxieS2IA&#34;&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/work/msfw.html</guid>
-      <description>&lt;p&gt;IBM Interactive Experience was contracted by City of Melbourne to develop an iOS companion application for Melbourne Spring Fashion week. Our small team of 4 was given 6 weeks to build an app to &amp;lsquo;wow&amp;rsquo; the client. In addition to the key objective of displaying a calendar of events with a simple process for buying tickets, we wanted to display a curated fashion news feed to the user, adjusted individually based on their interests. We also were to use location tracking with bluetooth beacons scattered around the city to offer highly targeted promotions from nearby retailers.&lt;/p&gt;
-
-&lt;p&gt;I took a key position in this project, wholly implementing the location tracking in the app, under guidance of an engineer from Localz, our partner who provided the beacon hardware. I also wrote much of the app interface to our various backend servers, and gained plenty of experience in writing code which was resilient to networking errors and user behaviour edge cases. Working closely with our project manager I also helped push the app through IBM&amp;rsquo;s arduous code review and licence check process, in collaboration our legal team based in the United States.&lt;/p&gt;
-
-&lt;p&gt;This was the toughest and most intense project I&amp;rsquo;ve ever worked on but the end result was a gorgeous, highly functional iOS application, and it was very satisfying sitting with the team on the Fashion Week runways, watching people in the audience use our app!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;img/work/msfw/first.jpg&#34; alt=&#34;Landing Screen&#34; /&gt;
-&lt;img src=&#34;img/work/msfw/Feed.jpg&#34; alt=&#34;Landing Screen&#34; /&gt;
-&lt;img src=&#34;img/work/msfw/Shows by Date.jpg&#34; alt=&#34;Landing Screen&#34; /&gt;&lt;/p&gt;
-</description>
+      <description>IBM Interactive Experience was contracted by City of Melbourne to develop an iOS companion application for Melbourne Spring Fashion week. Our small team of 4 was given 6 weeks to build an app to &amp;lsquo;wow&amp;rsquo; the client. In addition to the key objective of displaying a calendar of events with a simple process for buying tickets, we wanted to display a curated fashion news feed to the user, adjusted individually based on their interests.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/work/nand2tetris.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/work/nand2tetris.html</guid>
+      <description>I tackled the free online course nand2tetris: building a computer from first principles. In this course you are loosely guided to build an entire computer simulator, from basic logic circuits, up to an assembler, virtual machine, compiler and lexer. The course is actually taught to Harvard computer science students! I implemented all of these in Elixir, as the recursive nature of compiling and lexing lends itself well to this language. It was great to understand what happens behind the scenes when you hit compile on your code, and the constraints and design choices that influence all of the languages we use today.</description>
     </item>
     
     <item>
@@ -89,12 +88,7 @@ src=&#34;https://www.youtube.com/embed/CcBbxieS2IA&#34;&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/work/naomi.html</guid>
-      <description>&lt;p&gt;I volunteered to help an internal team to help interface our IBM Watson Cognitive Computing platform with a NAO humanoid robot. We wrote a node.js server to connect to the Watson Conversation API and provide some structuring, and I wrote python bindings to allow the robot&amp;rsquo;s operating system to interface its speakers and microphones directly to the server, as well as have automated motion in response to classes of words. For example, if it replied to a question with &amp;lsquo;yes&amp;rsquo;, it would nod its head. As a result you are able to have a spoken conversation with Watson via the robot! This was used to great success at media events here in Australia, and my manager and I were flown to Vietnam and Singapore for engagements there too, as the robot&amp;rsquo;s sole handler. Here he is seen on national news in Singapore for the opening of IBM&amp;rsquo;s new office in Marina Bay.&lt;/p&gt;
-
-&lt;iframe width=&#34;570&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/s3PrAhV8HJk?start=27&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Singapore&amp;rsquo;s Deputy Prime Minister Tharman was present and briefly interacted with him. This project was a great success and brought praise from several regional IBM Vice Presidents.&lt;/p&gt;
-</description>
+      <description>I volunteered to help an internal team to help interface our IBM Watson Cognitive Computing platform with a NAO humanoid robot. We wrote a node.js server to connect to the Watson Conversation API and provide some structuring, and I wrote python bindings to allow the robot&amp;rsquo;s operating system to interface its speakers and microphones directly to the server, as well as have automated motion in response to classes of words. For example, if it replied to a question with &amp;lsquo;yes&amp;rsquo;, it would nod its head.</description>
     </item>
     
     <item>
@@ -103,15 +97,7 @@ src=&#34;https://www.youtube.com/embed/CcBbxieS2IA&#34;&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/work/partylights.html</guid>
-      <description>&lt;p&gt;Seeking to enhance my birthday party at home, I built a system to make the outdoor lights dance with the beat of the music. I started planning and iterating the design several months before the event. It was initially to use an arduino microprocessor to run the whole system, however the arduino was found to be too performance constrained for truly accurate beat extraction. The system then morphed to a PC doing the extraction and sending beat signals to the arduino, which would use its GPIO pins to run all the lighting patterns from there. I created custom drivers boards to control low voltage pool lights, a replacement control unit for a string of christmas lights, and simple relays for several other light sets as well. The system came together well in the end, as seen in the below video. Unfortunately it rained most of the evening so my guests couldn&amp;rsquo;t properly appreciate it, but it added a memorable touch to a fun evening.&lt;/p&gt;
-
-&lt;iframe width=&#34;570&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/qDzLDmJZyIg&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;br&gt;
-Seen below is the arduino with the driving relays and power supply for the Christmas lights.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;img/work/partylights/21stelectronics.jpg&#34; alt=&#34;arduino&#34; /&gt;&lt;/p&gt;
-</description>
+      <description>Seeking to enhance my birthday party at home, I built a system to make the outdoor lights dance with the beat of the music. I started planning and iterating the design several months before the event. It was initially to use an arduino microprocessor to run the whole system, however the arduino was found to be too performance constrained for truly accurate beat extraction. The system then morphed to a PC doing the extraction and sending beat signals to the arduino, which would use its GPIO pins to run all the lighting patterns from there.</description>
     </item>
     
     <item>
@@ -120,15 +106,7 @@ Seen below is the arduino with the driving relays and power supply for the Chris
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/work/proj-1.html</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;img/work/proj-1/img1.jpg&#34; alt=&#34;Typo International&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;TYPO: International Design Talks is an annual event held in Berlin, London, and San Francisco. This promotional project is developed to market the event for the designindustry. The use of patterns, sophisticated color scheme and typography are applied for the print and mobile application.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;img/work/proj-1/img2.jpg&#34; alt=&#34;Typo International&#34; /&gt;
-&lt;img src=&#34;img/work/proj-1/img3.jpg&#34; alt=&#34;Typo International&#34; /&gt;
-&lt;img src=&#34;img/work/proj-1/img4.jpg&#34; alt=&#34;Typo International&#34; /&gt;
-&lt;img src=&#34;img/work/proj-1/img5.jpg&#34; alt=&#34;Typo International&#34; /&gt;&lt;/p&gt;
-</description>
+      <description>TYPO: International Design Talks is an annual event held in Berlin, London, and San Francisco. This promotional project is developed to market the event for the designindustry. The use of patterns, sophisticated color scheme and typography are applied for the print and mobile application.</description>
     </item>
     
     <item>
@@ -137,12 +115,7 @@ Seen below is the arduino with the driving relays and power supply for the Chris
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/work/rtlsdr.html</guid>
-      <description>&lt;p&gt;My Capstone project for the Masters of Electrical Engineering is based around the RTL-SDR. This is a device which has appeared on the market in the last several years, reducing the cost of Software Defined Radio from thousands of dollars to around 14 AUD. SDR is a process by which a broad spectrum of the radio waves flying past us all the time can be sampled and processed in software, lending a lot of flexibility and opening up a range of avenues of exploration.&lt;/p&gt;
-
-&lt;p&gt;My team of three have designed our project, with the final goal of taking a trio of these devices and using them to triangulate the phone signals of the people around us. Using very precise knowledge of the locations of the receivers, as well as custom hardware to synchronise the clocks of the devices to within a microsecond, we will be able to take measurements of the transit time of phone signals to the receivers. Knowing that the speed of light is constant, we can solve a system of equations to determine the location the signal was sent from. This is the same set of equations used by the GPS system, but applied essentially in reverse. After completing a proof of concept using the off the shelf RTL-SDR hardware, we will be designing our own hardware in search of greater precision.&lt;/p&gt;
-
-&lt;p&gt;The key skills we hope to gain from this project are high precision circuit design, with suitable considerations for minimising radio wave interference. We will also need to write mathematically correct and performant software to accurately determine location, as well as system drivers for the custom hardware further down the road. This will help polish well practiced project management and teamwork skills. We are being ably supervised by Dr. Tansu Alpcan.&lt;/p&gt;
-</description>
+      <description>My Capstone project for the Masters of Electrical Engineering is based around the RTL-SDR. This is a device which has appeared on the market in the last several years, reducing the cost of Software Defined Radio from thousands of dollars to around 14 AUD. SDR is a process by which a broad spectrum of the radio waves flying past us all the time can be sampled and processed in software, lending a lot of flexibility and opening up a range of avenues of exploration.</description>
     </item>
     
   </channel>
